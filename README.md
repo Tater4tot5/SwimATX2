@@ -1,1 +1,16 @@
 # SwimATX
+elevator pitch: 15-25 word explanation of your website
+SwimATX is an online community for swimmers in Austin to come for pool hours and locations, swim teams and groups, workouts, and training tips and resources.
+
+who / what / when / where / why: Austin, Texas is home to a large community of swimmers and triathletes but there is not a central source of information on local pools and swimming groups. Swim ATX will be a resource for Swimmers that are living in Austin, new to Austin, or just visiting and looking for information on where to swim, who is swimming in Austin, and workouts, resources and training tools for beginners to advanced swimmers.
+
+basic features / content: The city of Austin has a section on the Parks and Rec website where you can look up pool hours for city pools, but it's nested deep in the City of Austin website, it's difficult to read, and the interface is antiquated and in need of an update. SwimATX will not only solve this with a clean, user-friendly interface, but it will also be a central spot to find information on private as well as public pools. Information will include pool hours, websites, phone numbers, entrance fees, directions, pictures, etc. Because this site is meant to foster a sense of community, it will also be a one-stop-shop to find out about all the different swim clubs and organizations around town. Currently, Austin has no online resource that lists the swim clubs and summer leagues and it's hard to find programs or compare them. Swim ATX will be a central source of information on all of the swim clubs, leagues, lessons, and training groups in Austin. There will also be a section of the site dedicated to helping swimmers achieve their goals. Users will be able to find workouts and training videos and resources.
+sitemap: list all the pages you will be creating / designing for your site with a minimum of 5 pages
+(1)HomePage with links to:
+(2)Pool (Locations, hours, etc.)
+(3)Swim Leagues and Training Groups
+(4) Workouts
+(5)Training Tips and resources (drills, videos, etc.)
+
+libraries: list any 3rd party libraries or special features you will use for your app. include things such as jquery libraries, fonts, font icons, grid frameworks, etc.
+youtube videos, links to social media, social media/news feed, links to pool pages and swim club pages if they already have websites
