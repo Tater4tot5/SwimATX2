@@ -13,4 +13,4 @@ sitemap: list all the pages you will be creating / designing for your site with 
 (5)Training Tips and resources (drills, videos, etc.)
 
 libraries: list any 3rd party libraries or special features you will use for your app. include things such as jquery libraries, fonts, font icons, grid frameworks, etc.
-youtube videos, links to social media, social media/news feed, links to pool pages and swim club pages if they already have websites
+jquery, fontawesome, nested youtube videos, social media/news feed, links to pool pages and swim club pages if they already have websites
