@@ -1,0 +1,74 @@
+.maxwidthcontainer {
+  max-width: 1100px;
+  margin: 0 auto;}
+
+.poolcontainer {
+  overflow: hidden;
+  clear: both;
+  padding: 2.5% 0;
+  border-bottom: 1px solid grey;
+
+  .poolimgs {
+    float: left;
+    height:200px;
+    width: 50%;
+}
+
+.large
+{padding: 0 2.5%;
+  img{
+  max-width: 100%;
+}
+}
+  .poolfacts {
+    width:50%;
+    float: left;
+
+
+    h3 {margin: 0px 0px 10px;
+      text-align: left;}
+  }
+  a{
+    font-family: $displayfont;
+    color: $primary-color;
+  }
+  a:hover {
+    color: $selected;
+  }
+
+  .poolfacts::after {
+    clear:both;
+  }
+
+  .pooltext {
+      text-align: left;
+    padding: 0 2.5%;
+
+#accordion h3, p {margin: 10px 0px;}
+  .accordion-toggle {cursor: pointer;}
+  .accordion-content {display: none;}
+  .accordion-content.default {display: block;}
+
+  }
+  .sharecontainer{
+    padding: 4% 2%;
+    text-align: center;
+    ul {
+      text-align: center;
+      -webkit-padding-start: 0px;
+      list-style: none;
+      margin: 0px;
+    }
+    li {
+      display: inline;
+      padding: 0px 10px;
+    }
+      img {
+      height: 50px;
+      padding: 10px;
+    }
+  }
+}
+hr {
+  margin-top: 10px;
+}

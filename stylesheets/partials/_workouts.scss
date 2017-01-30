@@ -1,0 +1,75 @@
+$primary-color: #4da6fa;
+$accent-color: #89e3ee;
+$yellowaccent: #ffd71a;
+$selected: #3f7eb2;
+$headerfont:'Oswald', sans-serif;
+$displayfont: 'Merriweather', serif;
+
+
+.maxwidthwo{
+  width: 90%;
+}
+
+h1, h2, h3, {
+text-align: left;
+padding-bottom: 10px;
+font-family: $headerfont;
+color: #333333;
+font-weight: 400;
+letter-spacing: 1px;
+line-height: 1.6;
+text-transform: capitalize;
+margin: 0px;}
+
+p{ font-family: $headerfont;
+  font-weight: 300;
+line-height: 1.6;}
+
+.shareside {
+  float: left;
+  width: 10%;
+  position: fixed;
+  margin-top: 50px;
+  background: white;
+
+h3 {text-align: center;}
+img {
+  height: 50px;
+  padding: 0px;
+}
+
+ul{
+  padding-left: 10px;
+  list-style: none;
+}
+li {padding: 20px 10px;}
+}
+
+.workoutmain {
+  float: right;
+  width: 75%;
+  margin: 50px 10px 50px;
+
+.workoutitem {
+    text-align: left;
+
+}
+.print {
+  float:left;
+  padding-top: 10px;
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  background: $primary-color;
+  border-color: $selected;
+  font-family: $headerfont;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 300;
+  color: white;
+  border-style:solid;
+}
+}
+}

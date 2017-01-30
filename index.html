@@ -2,28 +2,89 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Sass Example</title>
+    <title>SwimATX</title>
      <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet"/>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+     <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700|Oswald:300,400" rel="stylesheet">
     <link href="stylesheets/main.css" rel="stylesheet"/>
   </head>
-  <body>
-    <header></header>
-    <main>
-      <div class="">
+  <body class="home">
+    <header>
+      <nav>
+        <div class="logo">
+          LOGO
+        </div>
+          <ul>
+            <li class="dropdown">
+              <a href="#pools">Pools</a>
+              <ul class="dropnav">
+                <li><a href="#">North Austin</a></li>
+                <li><a href="#">South Austin</a></li>
+                <li><a href="#">East Austin</a></li>
+                <li><a href="#">West Austin</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#training">Train</a>
+              <ul class="dropnav">
+                <li><a href="#lap">Lap Swimming 101</a></li>
+                <li><a href="#workouts">Workouts</a></li>
+                <li><a href="#tech">Technique</a></li>
+              </ul>
+            </li>
+            <li><a href="#intro">Connect</a></li>
+          </ul>
+      </nav>
+    </header>
+    <main class="homepage">
+      <div class="maxwidth">
+      <div class="hero">
+    <div class="introbanner">
+      <h1>Welcome to #SwimATX!</h1>
+      <p>#SwimATX is an online community for swimmers and triathletes in Austin, Texas to <a href="pools">find pools</a>,<a href="training"> train</a>, and<a href="connect"> connect</a>.</p>
+        </div>
+    </div>
 
+    <div id="pools">
+      <h1>Find a Pool</h1>
+      <p>Find a public pool in your neck-of-the-woods with reserved lanes for lap swimmers.</p>
+      <div class="regioncontainer">
+      <ul>
+      <li><div id="north"><a href="#"></a></div><h2>North<br>Austin</h2></li>
+      <li><div id="south"><a href="#"></a></div><h2>South<br>Austin</h2></li>
+      <li><div id="west"><a href="#"></a></div><h2>West<br>Austin</h2></li>
+      <li><div id="east"><a href="#"></a></div><h2>East<br>Austin</h2></li>
+    </ul>
+    </div>
+  </div>
+    <div id="training">
+    <h1>Train</h1>
+    <p>Learn the basics, train with free withworkouts, and improve your technique with these resources</p>
+    <div class="trainingcontainer">
+    <ul>
+    <li><div id="lap"><img src="images/101rope.png"><a href="#"><h2>Swimming 101</h2></a></div></li>
+      <li><div id="tech"><img src="images/technique_1.png"><a href="#"><h2>Technique</h2></a></div></li>
+    <li><div id="workouts"><img src="images/workoutsolo.png"><a href="#"><h2>Workouts</h2></a></div></li>
+  </ul>
+  </div>
+    </div>
+    <div id="connect">
+      <h1>Connect with #SwimATX</h1>
+      <p> Follow us on<a href="#instagram"> instagram</a>, and <a href="#twitter"> twitter</a>, and <a href="#email"> subscribe</a> to our newsletter to stay up-to-speed with the latest Austin Swimming News!</p>
+      <h2>#SwimATX </h2>
+      <ul class="share">
+      <li><a href="twitter"><img src="images/twitter_1.png"></a></li>
+      <li><a href="insta"><img src="images/insta_1.png"></a></li>
+      <li><a href="sharelink"><img src="images/connect_2.png"></a></li>
+      </ul>
+    </div>
       </div>
-    </main>
+     </div>
     <footer>
-
-
-      <!-- Latest compiled and minified JavaScript -->
-
-           <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/0.9.0rc1/jspdf.min.js"></script>
            <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
            <script type="text/javascript" src="js/main.js"></script>
          </footer>
+  </main>
   </body>
 </html>

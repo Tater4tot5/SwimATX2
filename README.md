@@ -1,5 +1,13 @@
 # SwimATX
 
+## Project Proposal
+What is the name of your project? SwimATX
+Who is this project for? Austin residents and visitors that like to swim for fitness.
+What problem are you solving?  Austin, Texas is home to a large community of swimmers and triathletes and our weather permits for almost year-round outdoor swimming. However, our pool facilities are underutilized and there is not a centralized source of information on the clubs and resources available to Austin swimmers. 
+How are you going to solve the problem? Create a website that fosters a sense of community and offers information on the numerous pools and swim clubs in Austin.
+Why is your solution going to work? There is no all-inclusive, local resource like this on the web.
+
+
 ## elevator pitch:
 SwimATX is an online community for swimmers in Austin to come for pool hours and locations, swim teams and groups, workouts, and training tips and resources.
 
@@ -20,4 +28,4 @@ The city of Austin has a section on the Parks and Rec website where you can look
 jquery, fontawesome, nested youtube videos, social media/news feed, links to pool pages and swim club pages if they already have websites
 
 ## MVP
-A site with a logo and homepage with three sections: first, a section listing local pools with images, hours and a link to maps second: a section for the different swim clubs in austin third: a section for workouts and training tips and tools. Seperate pages for each pool, and then a separate page for the clubs, the workouts, and the training tips and tools. 
+A site with a logo and homepage with three sections: first, a section listing local pools with images, hours and a link to maps second: a section for the different swim clubs in austin third: a section for workouts and training tips and tools. Seperate pages for each pool, and then a separate page for the clubs, the workouts, and the training tips and tools.

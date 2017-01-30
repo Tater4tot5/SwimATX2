@@ -1,0 +1,201 @@
+@import "partials/workouts";
+@import "partials/pools";
+@import "partials/poolsolo";
+@import "partials/training";
+
+$primary-color: #4da6fa;
+$accent-color: #89e3ee;
+$yellowaccent: #ffd71a;
+$selected: #3f7eb2;
+$headerfont:'Oswald', sans-serif;
+$displayfont: 'Merriweather', serif;
+
+  h1, h2, h3, {
+  font-family: $headerfont;
+  color: #333333;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0px;
+}
+
+
+p {
+
+  font-family: $displayfont;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+text-transform: uppercase;
+background-color: $primary-color;
+padding: 50px;
+margin: 0px;
+font-family: $headerfont;
+font-weight: lighter;
+letter-spacing: 1.5px;
+
+.logo {
+  margin: 10px;
+  float: left;}
+
+  ul{
+  -webkit-padding-start: 0px;
+  float:right;
+  list-style: none;
+  padding: 0px;
+  margin:0px;
+}
+li {
+  float:left;
+  display:inline-block;
+}
+a {
+  background-color: $primary-color;
+  color: white;
+  display:block;
+  padding: 10px 30px 20px;
+  text-decoration:none;
+}
+a:hover {
+  background-color:$selected;
+}
+.dropdown {
+  position:relative;
+}
+.dropnav {
+  position:absolute;
+  display: none;
+li {
+  width:150px;
+  margin:0px;
+  a {
+ background-color: $selected;
+  }
+}
+  a:hover {
+ background-color: $accent-color;
+ color: #333333;
+}
+}
+.dropdown:hover .dropnav {
+  display:block;
+}
+}
+
+.maxwidth {
+  width: 90%;
+margin: 0 auto;
+padding: 0px 25px 25px;}
+
+.homepage {
+h1 {padding: 25px 50px 0px;}
+h2 {padding: 25px 50px 0px;}
+p {padding: 10px 30px;}
+background-image: url("../images/bblbglt.png");
+background-size: contain;
+text-align: center;
+.hero {
+  a:link {
+    color: $primary-color;
+  }
+
+  a:hover {
+    color: $selected;
+  }
+  background-image: url("../images/deepeddypool.jpeg");
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+  padding: 50px;
+  clear:both;
+}
+
+.introbanner{
+  text-align: center;
+  background: white;
+  padding: 25px 30px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+#pools{
+  margin-top: 50px;
+  background: white;
+  padding: 25px 50px 25px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  .regioncontainer {
+    text-align: center;
+    ul {list-style: none;
+      -webkit-padding-start: 0px;}
+    li {
+      text-align: center;
+      display: inline-block;
+      padding: 20px;
+    height: 100px;
+    width: 100px;
+  margin: 10px;}
+  div {border-bottom: $primary-color 5px solid;}
+h2 {
+  margin-top: 10px;
+  padding: 0px;
+}
+}
+}
+#training {
+
+  margin-top: 50px;
+  background: white;
+  padding: 25px 50px 50px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  clear: both;
+  .trainingcontainer {
+      img {
+        width: 100px;
+      }
+      text-align: center;
+      ul {list-style: none;}
+      li {display: inline-block;}
+
+  #tech img{
+    margin-bottom: 10px;
+  }
+  }
+}
+  #connect{
+    a:link {
+      color: $primary-color;
+    }
+
+    a:hover {
+      color: $selected;
+    }
+    margin-top: 50px;
+    background: white;
+    padding: 25px 50px 50px;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    clear: both;
+    ul {
+      text-align: center;
+      -webkit-padding-start: 0px;
+      list-style: none;
+      margin: 0px;
+    }
+    li {
+      display: inline;
+      padding: 0px 10px;
+    }
+      img {
+      height: 80px;
+      padding: 10px;
+    }
+    h2 {
+      color: #333333;
+      padding: 0px 0px 20px;
+    }
+}
+
+}

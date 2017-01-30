@@ -1,29 +1,388 @@
+.maxwidthwo {
+  width: 90%; }
+
 h1, h2, h3 {
   text-align: left;
-  color: #ffffff;
-  background-color: black;
-  padding: 20px; }
+  padding-bottom: 10px;
+  font-family: "Oswald", sans-serif;
+  color: #333333;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  text-transform: capitalize;
+  margin: 0px; }
 
-header {
-  background-color: #ffffff; }
-  header nav {
-    background-color: white; }
-    header nav a {
-      color: green; }
+p {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  line-height: 1.6; }
 
-.message, .success, .error, .warning {
-  border: 1px solid grey;
-  padding: 10px;
-  color: grey;
+.shareside {
+  float: left;
+  width: 10%;
+  position: fixed;
+  margin-top: 50px;
+  background: white; }
+  .shareside h3 {
+    text-align: center; }
+  .shareside img {
+    height: 50px;
+    padding: 0px; }
+  .shareside ul {
+    padding-left: 10px;
+    list-style: none; }
+  .shareside li {
+    padding: 20px 10px; }
+
+.workoutmain {
+  float: right;
+  width: 75%;
+  margin: 50px 10px 50px; }
+  .workoutmain .workoutitem {
+    text-align: left; }
+  .workoutmain .print {
+    float: left;
+    padding-top: 10px; }
+    .workoutmain .print button {
+      margin-top: 15px;
+      padding: 10px;
+      border-radius: 5px;
+      background: #4da6fa;
+      border-color: #3f7eb2;
+      font-family: "Oswald", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-weight: 300;
+      color: white;
+      border-style: solid; }
+
+.innerhero {
+  padding: 30px 90px 20px;
+  text-align: center;
+  clear: both; }
+  .innerhero a {
+    color: #4da6fa; }
+  .innerhero a:hover {
+    color: #3f7eb2; }
+
+.map {
+  width: 50%;
+  float: left;
+  padding-left: 10%; }
+  .map iframe {
+    width: 90%;
+    height: 300px; }
+
+.mapkey {
+  text-align: center;
+  width: 30%;
+  float: right;
+  margin-right: 10%; }
+  .mapkey .north {
+    color: #7cb342; }
+  .mapkey .south {
+    color: #9c27b0; }
+  .mapkey .west {
+    color: #f58e00; }
+  .mapkey .east {
+    color: #0288d1; }
+
+#region {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap; }
+  #region .poolcontainer {
+    margin: 0% 2%;
+    width: 21%; }
+
+.maxwidthcontainer {
+  max-width: 1100px;
+  margin: 0 auto; }
+
+.poolcontainer {
+  overflow: hidden;
+  clear: both;
+  padding: 2.5% 0;
+  border-bottom: 1px solid grey; }
+  .poolcontainer .poolimgs {
+    float: left;
+    height: 200px;
+    width: 50%; }
+  .poolcontainer .large {
+    padding: 0 2.5%; }
+    .poolcontainer .large img {
+      max-width: 100%; }
+  .poolcontainer .poolfacts {
+    width: 50%;
+    float: left; }
+    .poolcontainer .poolfacts h3 {
+      margin: 0px 0px 10px;
+      text-align: left; }
+  .poolcontainer a {
+    font-family: "Merriweather", serif;
+    color: #4da6fa; }
+  .poolcontainer a:hover {
+    color: #3f7eb2; }
+  .poolcontainer .poolfacts::after {
+    clear: both; }
+  .poolcontainer .pooltext {
+    text-align: left;
+    padding: 0 2.5%; }
+    .poolcontainer .pooltext #accordion h3, .poolcontainer .pooltext p {
+      margin: 10px 0px; }
+    .poolcontainer .pooltext .accordion-toggle {
+      cursor: pointer; }
+    .poolcontainer .pooltext .accordion-content {
+      display: none; }
+    .poolcontainer .pooltext .accordion-content.default {
+      display: block; }
+  .poolcontainer .sharecontainer {
+    padding: 4% 2%;
+    text-align: center; }
+    .poolcontainer .sharecontainer ul {
+      text-align: center;
+      -webkit-padding-start: 0px;
+      list-style: none;
+      margin: 0px; }
+    .poolcontainer .sharecontainer li {
+      display: inline;
+      padding: 0px 10px; }
+    .poolcontainer .sharecontainer img {
+      height: 50px;
+      padding: 10px; }
+
+hr {
+  margin-top: 10px; }
+
+.trainingpage {
+  background-image: url("../images/bblbglt.png");
+  background-size: contain; }
+  .trainingpage h1, .trainingpage h2, .trainingpage h3 {
+    text-align: center; }
+
+#lap101 {
+  background: white;
+  padding: 25px 50px 25px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  text-align: center; }
+  #lap101 img {
+    height: 100px; }
+  #lap101 ul {
+    list-style: none; }
+  #lap101 h3 {
+    text-align: left;
+    line-height: 1px;
+    color: #3f7eb2; }
+  #lap101 li {
+    text-align: left;
+    padding-bottom: 20px; }
+
+#workouts {
+  background: white;
+  padding: 25px 50px 25px;
+  margin-top: 50px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  text-align: center; }
+  #workouts img {
+    height: 100px; }
+  #workouts .workoutcontainer {
+    display: flex; }
+    #workouts .workoutcontainer h3 {
+      text-transform: uppercase; }
+    #workouts .workoutcontainer h3:hover {
+      color: #4da6fa; }
+    #workouts .workoutcontainer div {
+      width: 30%;
+      padding: 50px; }
+
+#technique {
+  background: white;
+  padding: 25px 50px 25px;
+  margin-top: 50px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  text-align: center; }
+  #technique img {
+    height: 90px; }
+  #technique .techniquecontainer {
+    margin-top: 50px;
+    display: flex; }
+    #technique .techniquecontainer #videos {
+      padding: 10px 0px 50px;
+      width: 50%; }
+    #technique .techniquecontainer #books {
+      width: 50%;
+      padding: 10px 25px 50px; }
+      #technique .techniquecontainer #books a:hover {
+        color: #4da6fa; }
+      #technique .techniquecontainer #books h3 {
+        color: #3f7eb2; }
+      #technique .techniquecontainer #books .bookimg img {
+        clear: both;
+        float: left;
+        padding: 0px 25px; }
+      #technique .techniquecontainer #books .bookinfo h3, #technique .techniquecontainer #books .bookinfo p {
+        padding: 0px 10px;
+        text-align: left; }
+  #technique #other ul {
+    list-style: none; }
+    #technique #other ul h3 {
+      color: #3f7eb2;
+      margin: 0px;
+      padding: 0px; }
+    #technique #other ul a:hover {
+      color: #4da6fa; }
+
+h1, h2, h3 {
+  font-family: "Oswald", sans-serif;
+  color: #333333;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0px; }
+
+p {
+  font-family: "Merriweather", serif;
+  font-weight: 400; }
+
+a {
   text-decoration: none; }
 
-.success {
-  border-color: green; }
+nav {
+  text-transform: uppercase;
+  background-color: #4da6fa;
+  padding: 50px;
+  margin: 0px;
+  font-family: "Oswald", sans-serif;
+  font-weight: lighter;
+  letter-spacing: 1.5px; }
+  nav .logo {
+    margin: 10px;
+    float: left; }
+  nav ul {
+    -webkit-padding-start: 0px;
+    float: right;
+    list-style: none;
+    padding: 0px;
+    margin: 0px; }
+  nav li {
+    float: left;
+    display: inline-block; }
+  nav a {
+    background-color: #4da6fa;
+    color: white;
+    display: block;
+    padding: 10px 30px 20px;
+    text-decoration: none; }
+  nav a:hover {
+    background-color: #3f7eb2; }
+  nav .dropdown {
+    position: relative; }
+  nav .dropnav {
+    position: absolute;
+    display: none; }
+    nav .dropnav li {
+      width: 150px;
+      margin: 0px; }
+      nav .dropnav li a {
+        background-color: #3f7eb2; }
+    nav .dropnav a:hover {
+      background-color: #89e3ee;
+      color: #333333; }
+  nav .dropdown:hover .dropnav {
+    display: block; }
 
-.error {
-  border-color: red; }
+.maxwidth {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0px 25px 25px; }
 
-.warning {
-  border-color: yellow; }
+.homepage {
+  background-image: url("../images/bblbglt.png");
+  background-size: contain;
+  text-align: center; }
+  .homepage h1 {
+    padding: 25px 50px 0px; }
+  .homepage h2 {
+    padding: 25px 50px 0px; }
+  .homepage p {
+    padding: 10px 30px; }
+  .homepage .hero {
+    background-image: url("../images/deepeddypool.jpeg");
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    padding: 50px;
+    clear: both; }
+    .homepage .hero a:link {
+      color: #4da6fa; }
+    .homepage .hero a:hover {
+      color: #3f7eb2; }
+  .homepage .introbanner {
+    text-align: center;
+    background: white;
+    padding: 25px 30px;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2); }
+  .homepage #pools {
+    margin-top: 50px;
+    background: white;
+    padding: 25px 50px 25px;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2); }
+    .homepage #pools .regioncontainer {
+      text-align: center; }
+      .homepage #pools .regioncontainer ul {
+        list-style: none;
+        -webkit-padding-start: 0px; }
+      .homepage #pools .regioncontainer li {
+        text-align: center;
+        display: inline-block;
+        padding: 20px;
+        height: 100px;
+        width: 100px;
+        margin: 10px; }
+      .homepage #pools .regioncontainer div {
+        border-bottom: #4da6fa 5px solid; }
+      .homepage #pools .regioncontainer h2 {
+        margin-top: 10px;
+        padding: 0px; }
+  .homepage #training {
+    margin-top: 50px;
+    background: white;
+    padding: 25px 50px 50px;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    clear: both; }
+    .homepage #training .trainingcontainer {
+      text-align: center; }
+      .homepage #training .trainingcontainer img {
+        width: 100px; }
+      .homepage #training .trainingcontainer ul {
+        list-style: none; }
+      .homepage #training .trainingcontainer li {
+        display: inline-block; }
+      .homepage #training .trainingcontainer #tech img {
+        margin-bottom: 10px; }
+  .homepage #connect {
+    margin-top: 50px;
+    background: white;
+    padding: 25px 50px 50px;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    clear: both; }
+    .homepage #connect a:link {
+      color: #4da6fa; }
+    .homepage #connect a:hover {
+      color: #3f7eb2; }
+    .homepage #connect ul {
+      text-align: center;
+      -webkit-padding-start: 0px;
+      list-style: none;
+      margin: 0px; }
+    .homepage #connect li {
+      display: inline;
+      padding: 0px 10px; }
+    .homepage #connect img {
+      height: 80px;
+      padding: 10px; }
+    .homepage #connect h2 {
+      color: #333333;
+      padding: 0px 0px 20px; }
 
 /*# sourceMappingURL=main.css.map */

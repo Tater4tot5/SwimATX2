@@ -1,0 +1,53 @@
+.innerhero {
+    a{
+      color: $primary-color;
+    }
+    a:hover {
+      color: $selected;
+    }
+  padding: 30px 90px 20px;
+  text-align: center;
+  clear: both;
+}
+
+.map {
+  width: 50%;
+  float: left;
+  padding-left: 10%;
+iframe{
+  width:90%;
+  height: 300px;
+}
+}
+.mapkey {
+  text-align: center;
+  width: 30%;
+  float:right;
+  margin-right: 10%;
+.north {
+  color: rgb(124, 179, 66);
+}
+.south {
+  color: rgb(156, 39, 176);
+}
+.west {
+  color: rgb(245, 142, 0);
+}
+.east {
+  color: rgb(2, 136, 209);
+}
+}
+
+
+#region{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+
+  .poolcontainer{
+    margin: 0% 2%;
+    width: 21%;
+  }
+
+}
