@@ -9,17 +9,30 @@ $displayfont: 'Merriweather', serif;
 .trainingpage {
   background-image: url("../images/bblbglt.png");
 background-size: contain;
-h1, h2, h3, {
-text-align: center;}}
+h1, h2 {
+text-align: center;
+padding-bottom: 10px;}
+
+ p{
+   line-height: 1.8;}
+}
 
 
 
 #lap101 {
   background: white;
-  padding: 25px 50px 25px;
+  padding: 0px 50px 25px;
   box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
   text-align: center;
+
+  a {
+    color: $primary-color;
+  }
+  a:hover {
+    color: $selected;
+  }
   img {
+    padding-top: 125px;
     height: 100px;
   }
 
@@ -43,8 +56,10 @@ li {
     box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
     text-align: center;
 
-    img {
-      height: 100px;
+
+    .cross {
+      height: 25px;
+      padding: 10px;
       }
     .workoutcontainer {
       h3 {
@@ -55,63 +70,113 @@ li {
        }
        div{
          width: 30%;
-         padding: 50px;}
+         padding: 25px;}
     }
   }
 
   #technique {
     background: white;
-    padding: 25px 50px 25px;
+    padding: 25px 25px 25px;
     margin-top: 50px;
     box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
     text-align: center;
     img {
-      height: 90px;
+      height: 80px;
     }
     .techniquecontainer {
+      overflow: hidden;
+      clear: both;
       margin-top: 50px;
-      display: flex;
       #videos {
+        float: left;
         padding: 10px 0px 50px;
         width: 50%;
+        h2 {padding-bottom: 25px;}
       }
         #books{
-          a:hover {
-             color: $primary-color;
+          float: right;
+          width: 40%;
+          margin: 0% 2% 0% 0%;
+
+           h2 {
+             padding: 10px 0px 25px;
            }
            h3 {
-             color: $selected;}
-          width: 50%;
-          padding: 10px 25px 50px;
+             color: $selected;
+           margin: 0px;}
 
-      .bookimg img{
-        clear: both;
+      .bookimg {
         float: left;
-        padding:0px 25px;
+        clear: both;
+        padding:0px 10px 10px;
       }
       .bookinfo {
-        h3, p {
-          padding: 0px 10px;
+        h3{
         text-align: left;}
+        p {
+          text-align: left;
+          padding-bottom: 28px;}
       }
     }
 }
 
   #other {
-    ul{
 
+    clear: both;
+    margin: 0 none;
+   h2, h3, p {
+    text-align: left;}
+    ul{
+    -webkit-padding-start: 0px;
       list-style: none;
       h3 {
         color: $selected;
         margin: 0px;
-        padding: 0px;
+        padding: 0px
       }
 
      a:hover {
         color: $primary-color;
       }
     }
-
-
   }
   }
+@media (min-width: 481px) and (max-width: 780px) {
+  #workouts .workoutcontainer{
+    text-align: center;
+    display: block;
+    div {
+      width: 90%;
+    }
+  }
+  #technique .techniquecontainer #videos {
+    float: none;
+    width: 100%;
+  }
+  #technique .techniquecontainer #books {
+    float: none;
+    width: 100%;
+    margin: 2% 5% 5%;
+  }
+
+}
+@media (min-width: 380px) and (max-width: 480px) {
+#lap101 {padding-top: 50px;}
+
+  #technique .techniquecontainer #videos {
+    float: none;
+    width: 100%;
+  }
+  #technique .techniquecontainer #books {
+    float: none;
+    width: 100%;
+    margin: 2% 5% 5%;
+  }
+  #workouts .workoutcontainer{
+    text-align: center;
+    display: block;
+    div {
+      width: 90%;
+    }
+  }
+}

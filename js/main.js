@@ -13,10 +13,23 @@ $('#cmd').click(function () {
     doc.save('workout-file.pdf');
 });
 
-$(document).ready(function($) {
-    $('#accordion').find('.accordion-toggle').click(function(){
-      $(this).next().slideToggle('fast');
 
-
-    });
+  function EasyPeasyParallax() {
+  	scrollPos = $(this).scrollTop();
+  	$('#banner').css({
+  		'background-position' : '50% ' + (-scrollPos/4)+"px"
+  	});
+  	$('#bannertext').css({
+  		'margin-top': (scrollPos/4)+"px",
+  		'opacity': 1.1-(scrollPos/230)
+  	});
+  }
+  $(document).ready(function(){
+  	$(window).scroll(function() {
+  		EasyPeasyParallax();
+  	});
   });
+// bxslider
+  $(document).ready(function(){
+  $('.bxslider').bxSlider();
+});

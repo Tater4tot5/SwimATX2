@@ -2,68 +2,31 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Pools</title>
+    <title>practice</title>
      <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" rel="stylesheet"/>
      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
      <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700|Oswald:300,400" rel="stylesheet">
+     <link href="stylesheets/jquery.bxslider.css" rel="stylesheet"/>
     <link href="stylesheets/main.css" rel="stylesheet"/>
   </head>
-  <body class="home">
-    <header>
-      <nav>
-        <div class="logo">
-          LOGO
-        </div>
-          <ul>
-            <li class="dropdown">
-              <a href="#pools">Pools</a>
-              <ul class="dropnav">
-                <li><a href="#">North Austin</a></li>
-                <li><a href="#">South Austin</a></li>
-                <li><a href="#">East Austin</a></li>
-                <li><a href="#">West Austin</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#training">Train</a>
-              <ul class="dropnav">
-                <li><a href="#lap">Lap Swimming 101</a></li>
-                <li><a href="#workouts">Workouts</a></li>
-                <li><a href="#tech">Technique</a></li>
-              </ul>
-            </li>
-            <li><a href="#intro">Connect</a></li>
-          </ul>
-      </nav>
-    </header>
+  <body>
     <main>
-    <div class="innerhero">
-  <div id="intro">
-      <h1>Find a Pool</h1>
-      <p>Find Austin-area pools near you using the <a href="#map">map</a> below, or by selecting <a href="#region">a region</a>. All pools featured on #SwimATX are open to the public, require little or no entrance fees, and offer reserved lap lanes lap swimming hours. </p>
-    </div>
+      <ul class="bxslider">
+    <li><img src="images/slider_dicknichols.jpg"/></li>
+    <li><img src="images/slider_dicknichols2.jpg"/></li>
+    <li><img src="images/slider_addphoto.jpg"/></li>
+  </ul>
+  <div id="bx-pager">
+    <a data-slide-index="0" href=""><img src="images/thumbnail_dicknichols.jpg"/></a>
+    <a data-slide-index="1" href=""><img src="images/thumbnail_dicknichols2.jpg"/></a>
+    <a data-slide-index="2" href=""><img src="images/thumbnail_addphoto.jpg"/></a>
   </div>
-    <div id="map" class="mapcontainer">
-      <div class="mapkey">
-        <h3>Map Key</h3>
-        <p class="north"><i class="material-icons">location_on</i> = North Austin</p>
-        <p class="south"><i class="material-icons">location_on</i> = South Austin</p>
-        <p class="west"><i class="material-icons">location_on</i> = West Austin</p>
-        <p class="east"><i class="material-icons">location_on</i>= East Austin</p>
-      </div>
-        <div class="map">
-      <iframe src="https://www.google.com/maps/d/embed?mid=1_wFyjCwiGx9MUrcryQHeCsMyx0M" width="640" height="480"></iframe>
-    </div>
-    </div>
-    <div id="region">
-    <div class="poolcontainer"><a href="#"><h2>North Austin</h2></a></div>
-    <div class="poolcontainer"><a href="#"><h2>South Austin</h2></a></div>
-    <div class="poolcontainer"><a href="#"><h2>West Austin</h2></a></div>
-    <div class="poolcontainer"><a href="#"><h2>East Austin</h2></a></div>
-  </div>
+
     <footer>
-           <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/0.9.0rc1/jspdf.min.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+           <script src="js/jquery.bxslider.min.js"></script>
            <script type="text/javascript" src="js/main.js"></script>
          </footer>
   </main>
