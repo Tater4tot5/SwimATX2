@@ -93,12 +93,12 @@ iframe{
 
   .imgDescription {
     .viewmore{
-      height: 50px;
+      height: 40px;
     }
     margin: 0% 1%;
     font-family: 'Oswald';
     font-weight: 300;
-    padding: 50px 10px;
+    padding:15%;
     letter-spacing: 1.5px;
     text-align: center;
     position: absolute;
@@ -135,6 +135,8 @@ iframe{
     width: 48%;
     margin: 1%;}
 
+  #region .imgDescription {
+      padding:25%;}
 }
 @media (min-width: 320px) and (max-width: 480px) {
 
@@ -157,5 +159,7 @@ iframe{
   #region .regionimg {
     width: 90%;
     margin: 2.5% 5% 1%;}
-
+    #region .imgDescription {
+      font-size: 1em;
+        padding:25%;}
 }
